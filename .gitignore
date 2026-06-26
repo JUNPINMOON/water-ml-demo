@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Trained model artifacts (regenerable via run_demo.py); keep PNGs + metrics.json
+*.pkl
+outputs/*.pkl
+
+# OS
+.DS_Store
+Thumbs.db

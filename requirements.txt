@@ -1,0 +1,8 @@
+pandas
+numpy
+scikit-learn
+lightgbm
+dataretrieval
+matplotlib
+# Optional — only required if you implement the LSTM baseline (src/train.py stub):
+# torch
