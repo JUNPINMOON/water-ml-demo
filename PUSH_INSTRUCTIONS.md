@@ -2,16 +2,20 @@
 
 Nothing was auto-pushed. Main is untouched. The decision is yours.
 
+> **Note (outreach/resume docs):** The resume and outreach deliverables (in connect-ai-runtime, outside this repo) are finalized — the HEC-RAS/SWMM wording has been corrected to "input/output workflow automation" (not engine development). This repo's own content (README, CASE_NOTE, notebooks) is unchanged by that correction. Once you push this repo public, you can immediately attach **github.com/JUNPINMOON/water-ml-demo** as the CAMELS portfolio link in those documents.
+
 ---
 
 ## Current state
 
 Branch: `claude/nervous-poincare-eac901`
 
-Recent commits on this branch:
+Recent commits on this branch (run `git log --oneline -5` for the live list):
 ```
-db9c881 Recruiter-facing README rewrite + 1-page CASE_NOTE (honest, results-first)
-a407572 Streamflow forecasting demo: LightGBM on USGS + NASA POWER (NSE 0.94 / KGE 0.92, leave-one-basin-out eval)
+<newest>  Refresh PUSH_INSTRUCTIONS: accurate commit list + public repo URL
+423f093  Add PUSH_INSTRUCTIONS.md: human-follow-only merge/push/discard guide
+db9c881  Recruiter-facing README rewrite + 1-page CASE_NOTE (honest, results-first)
+a407572  Streamflow forecasting demo: LightGBM on USGS + NASA POWER (NSE 0.94 / KGE 0.92, leave-one-basin-out eval)
 ```
 
 ---
@@ -46,6 +50,8 @@ git merge claude/nervous-poincare-eac901
 ```bash
 gh repo create water-ml-demo --public --source . --push
 ```
+This creates **github.com/JUNPINMOON/water-ml-demo** (authenticated account = JUNPINMOON).
+Use this URL as the CAMELS portfolio link in your resume, gig proposals, and cold pitches.
 
 **Option B — existing origin already configured:**
 ```bash
